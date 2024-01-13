@@ -13,20 +13,3 @@ variable "sample_boolean" {
   default = true
 }
 
-## Booleans are true or false
-
-# Booleans and numbers does not need to be quoted, Only strings need to be quoted that to be with double quotes. Terraform does support for Single quotes.
-
-### Variable Types
-# So far we have seen is default variable type
-
-# We have list variable type , Meaning single variable can hold multiple values
-variable "sample_list" {
-  default = [
-    100,
-    "hello",
-    true,
-    123
-  ]
-}
-
