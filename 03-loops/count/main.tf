@@ -14,4 +14,3 @@ resource "null_resource" "fruits" {
 variable "fruits" {
   default = ["apple", "banana", "orange"]
 }
-
