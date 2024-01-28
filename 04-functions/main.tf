@@ -49,10 +49,9 @@ variable "sample1" {
 
 variable "sample2" {
   default = {
-    xyz = 10
+    xyz = 100
     abc =200
   }
-  type = map
 }
 
 
