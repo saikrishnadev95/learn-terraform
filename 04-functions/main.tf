@@ -52,7 +52,7 @@ variable "sample2" {
     xyz = 10
     abc =200
   }
-  type = "map"
+  type = map
 }
 
 
