@@ -47,18 +47,13 @@ variable "sample1" {
   default = ["abc , xyz"]
 }
 
-output "sample1" {
-  value = upper(var.sample1)
+variable "sample2" {
+  default = {
+    xyz = 10
+    abc =200
+  }
+  type = "map"
 }
-
-
-
-
-
-
-
-
-
 
 
 
